@@ -6,27 +6,27 @@ This document records your project thinking during Week 1 after you complete the
 
 ## 1 Initial Project Concept
 
+
 ### 1.1 Working Title
 
-[Enter a provisional project title.]
+My Website
 
 ### 1.2 Current Concept
 
 Describe what you currently imagine making, designing, researching, performing, or developing. Be as expansive as your current thinking requires; two to three sentences is the minimum. If you are not yet sure what your Culmination Project will be, describe the areas, practices, questions, technologies, or experiences you want to work within instead.
 
-[Write here.]
 
 ### 1.3 Participant Experience
 
 What might a participant, audience member, user, or collaborator see, hear, do, understand, or feel?
 
-[Write here.]
+Nostalgia. New knowledge about what they haven't seen
 
 ### 1.4 Early Unknowns
 
 List at least one important question, uncertainty, or problem that you need to investigate.
 
-- [Write here.]
+- I need to investigate what I want my project to be
 
 ---
 
@@ -38,7 +38,9 @@ After watching *The Architecture of Practice: Dismantling the Make-First Misconc
 
 Write 2-4 sentences.
 
-[Write here.]
+After watching the SRDMPA video, identify one way the framework changes, expands, or complicates how you were thinking about developing your project.
+
+This creates a space where I would say, you pre create your project. Meaning You learn about all the ins/outs, what could be the errors, and how it'll work in different locations before having to actually face the consequences.
 
 ---
 
@@ -50,7 +52,7 @@ After watching *Complex Creative Systems*, explain how distinguishing among a No
 
 Write 2-4 sentences. You are not expected to define final versions of these scales yet.
 
-[Write here.]
+I want to put creativity and programming together. One day I had the idea of making a website of everything ive ever watched and maybe talk about it. Im not entirely sure now but I do want to code more to practice. I will think about more ideas.
 
 ---
 
@@ -60,13 +62,13 @@ Write 2-4 sentences. You are not expected to define final versions of these scal
 
 Briefly distinguish between your project's **content** (what it communicates, investigates, enables, or allows someone to experience) and its **system** (how it is created, organized, delivered, or experienced).
 
-[Write here.]
+If i do the project of everything I ever watched. That would enable the user to see and learn about things they have never seen. It gives information based and what I put forward. I was thinking of making a database of some-kind, that I can easily add to it. 
 
 ### 4.2 Professional Contribution
 
 What part of the project represents the professional work you want others to evaluate you for? Identify any supporting, acquired, collaborative, or provisional components as needed.
 
-[Write here.]
+The part of the project that represents professional work for me is doing the complete back end. More experience with databases and servers.
 
 ### 4.3 Project Type Response
 
@@ -74,7 +76,7 @@ After watching *Designing Your Culmination Project*, identify one or more projec
 
 Write 2-4 sentences.
 
-[Write here.]
+I would have to think of more ideas but the main one i have right now is probably in the category of media. Media because i need a lot of information from media i have consumed over time
 
 ### 4.4 Project Origin Response
 
@@ -82,7 +84,7 @@ How did you arrive at this project idea or area of interest, and why did you sel
 
 You may discuss personal experience, prior coursework, creative or technical interests, an existing project, a collaborator, or a possible CHI Meta-Project connection. Your answer may change as the project develops.
 
-[Write here.]
+I chose this because I do like to consume a lot of media like movies, shows, etc. I also wanted to learn more about back end web design. So theres where i got the idea to maybe make some kind of database others can see as well.
 
 ---
 
