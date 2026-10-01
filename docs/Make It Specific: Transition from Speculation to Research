@@ -1,0 +1,27 @@
+Student (Team)
+
+Joab Liriano Jr
+
+Working Title
+
+DoubleTake(WIP)
+
+Project Format
+
+Web Application (React Frontend, Database-Backed Social Platform)
+
+Project Description (One Sentence Only)
+
+DoubleTake(WIP) is a web application that allows users to track media they have consumed and automatically unlock shared discussion boards when at least two users have added the same media.
+
+User / Integrator Experience (5-7 Sentences)
+
+A user creates an account and logs into the platform. The user can add movies, television shows, games, books, anime, manga, or other media they have watched, played, or read. Each media entry is added to the user's personal media history. If only one user has added a particular title, the discussion board remains locked and displays a message indicating that another participant is needed. When a second user adds the same media, a discussion board is automatically unlocked for that title. Users who have added that media can enter the discussion board, read existing posts, and contribute their own comments. The experience is intended to connect people through shared media interests rather than through friend requests or direct messaging.
+
+System Description (Operational, Not Abstract)
+
+The system stores user accounts and media entries in a database. When a user adds a media title, the system checks how many users have already added the same title. If fewer than two users are associated with that media, the system records the entry and marks the discussion board as locked. When the number of associated users reaches two, the system automatically creates or unlocks a discussion board linked to that media title. Discussion boards are only accessible to users who have previously added that media to their profiles. Users may create discussion posts and view existing posts within unlocked boards. The application consists of a React frontend, a Node.js/Express backend, and a relational database used to store users, media entries, discussion boards, and posts.
+
+Explicit Dependency
+
+This project depends on accurate matching of media entries so that users who add the same media title are correctly grouped together. If media titles are stored inconsistently or duplicate variations exist, discussion boards may fail to unlock or users may be separated into different groups, breaking the core experience of connecting people through shared media.

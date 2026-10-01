@@ -1,0 +1,27 @@
+Student (Team)
+
+Joab Liriano Jr (Individual Project)
+
+Working Title
+
+DoubleTake
+
+Project Format
+
+Web-Based Social Discussion Platform (React Frontend, API-Integrated Database System)
+
+Project Description
+
+DoubleTake is a web application that allows users to track media they have consumed and automatically unlock discussion boards when two or more users have added the same media entry.
+
+User Experience
+
+A user creates an account and logs into the platform. The user selects a media category such as Movies & TV, Games, or Books and searches for a title. Search results are retrieved from an external media database and the user adds a selected title to their personal profile. If the user is the only person who has added that title, the system displays that the discussion board is not yet available. When a second user adds the same media entry, a discussion board is automatically unlocked for all users associated with that title. Users can enter discussion boards, read posts, create discussion threads, and contribute comments related to the media. The intended experience is discovering other people who have shared the same media experiences and creating communities that emerge naturally from common interests.
+
+System Description
+
+The system consists of a React frontend, a Node.js/Express backend, and a relational database. Users create accounts and maintain profiles that store their associated media entries. Media records are retrieved through category-specific APIs, such as movie, television, game, or book databases. When a user adds media to their profile, the backend checks how many users are associated with the same media identifier. If fewer than two users are linked to that media record, the discussion board remains unavailable. Once two or more users are associated with the same media record, the system automatically creates or unlocks a discussion board for that title. Discussion boards store posts, comments, and participation data that can be accessed only by users who have added the corresponding media.
+
+Explicit Dependency
+
+This project depends on reliable media identification through external media databases and APIs. Users who select the same movie, show, game, or book must be linked to the same media record for discussion boards to unlock correctly. If media records are duplicated, inconsistent, or unavailable through the APIs, users may be separated into different groups and the core community-building feature of the platform will fail.

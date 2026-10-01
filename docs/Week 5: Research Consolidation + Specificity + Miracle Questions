@@ -1,0 +1,138 @@
+Part 1 – Zotero Research Consolidation
+
+Precedent Research
+
+Projects similar to DoubleTake.
+
+Letterboxd
+Goodreads
+MyAnimeList
+Backloggd
+Reddit
+Discord
+
+Research Questions
+How do users track media?
+How are discussions organized?
+How do communities form?
+How are profiles structured?
+
+Inspirational Research
+
+Letterboxd
+Reddit discussion threads
+Discord communities
+Personal experiences wanting to discuss niche media
+Book clubs
+Gaming communities
+
+Research Questions
+Why do media communities form?
+What motivates participation?
+How do shared experiences create social connection?
+Technical Research
+
+Things I might actually need to build.
+
+React
+Components
+State
+Routing
+APIs
+TMDB
+RAWG
+Open Library
+Backend
+Node.js
+Express
+Database
+PostgreSQL
+Authentication
+User accounts
+Login systems
+Discussion Boards
+Forum data structures
+Thread/comment systems
+
+Part 2 – Make It Specific Revision
+
+Updated version.
+
+Student
+
+Joab Liriano Jr
+
+Working Title
+
+DoubleTake
+
+Project Format
+
+Web-Based Social Discussion Platform
+
+Project Description
+
+DoubleTake is a web application that allows users to track media they have consumed and automatically unlock discussion boards when two or more users have added the same media title.
+
+User Experience
+
+A user creates an account and logs into the platform. The user selects a media category such as Movies & TV, Games, or Books and searches for a title using a category-based search system. Search results are retrieved from external media databases and the user adds selected titles to a personal media profile. If only one user has added a media title, the discussion board remains locked. When a second user adds the same title, the system unlocks a discussion board associated with that media. Users can enter discussion boards, create discussion threads, and contribute comments. The intended experience is helping users discover and interact with people who have shared the same media experiences.
+
+System Description
+
+The platform consists of a React frontend, a Node.js/Express backend, and a relational database. Users create accounts and maintain media libraries linked to their profiles. Media information is retrieved through external databases using category-specific APIs such as TMDB for movies and television, RAWG for video games, and Open Library for books. When a user adds media, the backend checks the number of users associated with that media identifier. When two or more users are linked to the same media record, the system unlocks a discussion board for that title. Discussion boards store threads and comments and are accessible only to users who have added the related media.
+
+Explicit Dependency
+
+This project depends on reliable media identification through external APIs. Users associating themselves with the same movie, game, television show, or book must be linked to the same media record so that discussion boards unlock correctly. If external APIs fail, data becomes inconsistent, or duplicate media records are created, the core community-formation system will not function as intended.
+
+Part 3 – Miracle Questions / Unknowns
+
+Your professor is basically asking:
+
+"What are the risky assumptions in your project?"
+
+These are actually really good ones for DoubleTake.
+
+Technical Unknowns
+1. How difficult will it be to integrate multiple media APIs?
+
+Why it's unknown:
+
+TMDB, RAWG, and Open Library all return data differently.
+
+Investigation:
+
+Build a small test application that performs searches against each API and compares response structures.
+
+2. Will users understand why a board is locked?
+
+Why it's unknown:
+
+Users may not immediately understand the concept.
+
+Investigation:
+
+Create wireframes and conduct informal usability testing.
+
+3. Should users see participant counts?
+
+Why it's unknown:
+
+Visible counts might encourage participation or discourage activity in small communities.
+
+Investigation:
+
+Compare existing social platforms and gather user opinions.
+
+4. Should media categories use tabs, multiple search bars, or a category selector?
+
+Why it's unknown:
+
+Different navigation approaches may affect usability.
+
+Investigation:
+
+Build low-fidelity prototypes and test user preferences.
+
+Narrative / Content Unknowns
