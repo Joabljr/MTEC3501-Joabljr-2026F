@@ -1,0 +1,112 @@
+Midterm Expert-Feedback Presentation
+
+Group and track the project work needed to explain the current direction of DoubleTake and receive expert feedback during the Weeks 7–8 midterm presentation.
+
+1. Refine Make It Specific Document
+Tasks:
+
+Finalize project description
+Finalize user experience
+Finalize system description
+Finalize dependency
+
+2. Define PoC / LVP / NSV
+Tasks:
+
+Define Proof of Concept
+Define Least Viable Product
+Define North Star Vision
+
+3. Precedent Research
+Tasks:
+
+Research Letterboxd
+Research Goodreads
+Research Reddit
+Research Discord
+Research MyAnimeList
+
+4. Technical Research
+Tasks:
+
+Research React
+Research TMDB API
+Research PostgreSQL
+Research Authentication
+
+5. Zotero Consolidation
+Tasks:
+
+Organize sources
+Add annotations
+Verify categories
+
+6. Create Research Markdown Document
+Tasks:
+
+Create research.md
+Add bibliography
+Add findings
+
+7. Create User Experience Diagram
+Tasks:
+
+Plain Text
+Login
+↓
+Choose Category
+↓
+Search Media
+↓
+Add Media
+↓
+ 
+1 User
+Board Locked
+ 
+2 Users
+Board Unlocked
+ 
+↓
+Discussion Board
+Show more lines
+
+8. Create Presentation Slides
+Sub-Issues
+Slide 1 - Project Overview
+Slide 2 - User Experience
+Slide 3 - System Explanation
+Slide 4 - Scope Ladder
+Slide 5 - Research & Context
+Slide 6 - Technology & Competencies
+Slide 7 - Unknowns & Next Steps
+Slide 8 - Questions For Experts
+
+9. Technology & Competency Reflection
+Tasks:
+
+Current skills
+Knowledge gaps
+Learning plan
+
+10. Miracle Questions / Unknowns
+Categories:
+
+Technical
+UX
+Narrative
+
+11. Expert Feedback Questions
+Potential questions:
+
+Is requiring two users to unlock discussions a meaningful mechanic?
+Does DoubleTake feel different enough from Reddit and Discord?
+Should I start with one media category or multiple?
+
+How does the milestone help you see the work for the presentation as a group?
+
+The milestone groups all work related to the Weeks 7–8 presentation into a single objective. Instead of viewing tasks separately, it provides a clear overview of the research, planning, design, and presentation materials needed for the expert-feedback presentation.
+
+How is the milestone different from an Issue card on your Kanban board?
+
+A milestone represents a larger goal composed of multiple tasks, while an Issue represents a specific piece of work. Issues move through the Kanban workflow, while the milestone tracks overall progress toward the presentation.
